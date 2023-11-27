@@ -16,7 +16,7 @@
     "This could introduce a major inaccuracy, since many roads do not have a 35 mph speed limit.\n",
     "We will improve the study design by replacing the network_setting function with the use of the osmnx.speed module, which calculates speeds for all edges in a graph using the mean speed of the edges of each highway type.\n",
     "For example, all residential road segments with unknown speed limit values will be assigned the mean speed limit of all residential road segments with known speed limit values.\n",
-    "The osmnx. speed module can also be used to calculate travel times.\n",
+    "The osmnx.speed module can also be used to calculate travel times.\n",
     "\n",
     "\n",
     "## Results\n",
